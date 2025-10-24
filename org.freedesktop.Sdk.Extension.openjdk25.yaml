@@ -68,8 +68,8 @@ modules:
       - ln -sr $FLATPAK_DEST/jvm/openjdk-25/bin/* $FLATPAK_DEST/bin
     sources:
       - type: archive
-        url: https://github.com/openjdk/jdk25u/archive/refs/tags/jdk-25+36.tar.gz
-        sha512: 3a1075486cc471162234b4f7f6390625a832307856b5eaba335072052f49e64ee48f964d39701885185acade65889dec210c1b5af7ed4c439c9c0584df0c747f
+        url: https://github.com/openjdk/jdk25u/archive/refs/tags/jdk-25.0.1+8.tar.gz
+        sha512: dcf99f99c20827f7345dd9c8bc5bafddccde454cd0f36375d4a75b293df94500147405ec44dc6a2bffef3f2a977ff88b20b6e9b3dc0af6e2129feea3776b825d
         x-checker-data:
           is-main-source: true
           type: json
