@@ -12,7 +12,7 @@ For the current latest (non-LTS) version, see the [OpenJDK](https://github.com/f
 
 You can bundle the JRE with your Flatpak application by adding this SDK extension to your Flatpak manifest and calling the install.sh script. For example:
 
-```
+```yaml
 app-id: com.example.myapp
 runtime: org.freedesktop.Platform
 runtime-version: '25.08'
