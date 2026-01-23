@@ -12,6 +12,7 @@ build-options:
   prefix: /usr/lib/sdk/openjdk25
 
 modules:
+  # Boot JDK requirements: https://htmlpreview.github.io/?https://raw.githubusercontent.com/openjdk/jdk/master/doc/building.html#boot-jdk-requirements
   - name: bootstrap_jdk
     buildsystem: simple
     build-commands:
@@ -92,6 +93,7 @@ modules:
       - type: file
         path: extract_cacerts.sh
 
+  # Java version requirements for Ant: https://ant.apache.org/faq.html#java-version
   - name: ant
     buildsystem: simple
     build-commands:
@@ -112,6 +114,7 @@ modules:
       - '*.bat'
       - '*.cmd'
 
+  # Java version requirements for Maven: https://maven.apache.org/docs/history.html
   - name: maven
     buildsystem: simple
     build-commands:
@@ -133,6 +136,7 @@ modules:
       - '*.bat'
       - '*.cmd'
 
+  # Java version requirements for Gradle: https://docs.gradle.org/current/userguide/compatibility.html#java_runtime
   - name: gradle
     buildsystem: simple
     build-commands:
