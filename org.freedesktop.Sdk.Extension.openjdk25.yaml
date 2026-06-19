@@ -124,9 +124,9 @@ modules:
       - ln -sr $FLATPAK_DEST/maven/bin/mvn $FLATPAK_DEST/maven/bin/mvnDebug $FLATPAK_DEST/bin
     sources:
       - type: file
-        url: http://archive.apache.org/dist/maven/maven-3/3.9.15/binaries/apache-maven-3.9.15-bin.tar.gz
+        url: http://archive.apache.org/dist/maven/maven-3/3.9.16/binaries/apache-maven-3.9.16-bin.tar.gz
         dest-filename: apache-maven-bin.tar.gz
-        sha512: 33d81e0ec785f0207e3e5e3ffb61863e1dca5784c15ac3fb5ff105f69cffbea484eb8d473ea60467a63f7b0570eef8622f2fed8eee96acbe668aa313391cddb3
+        sha512: 831a8591fe20c8243b1dbe7d71e3244f31d1665b0804b2e825e38cbbe5ce0cafb8338851f90780735568773e0a6cd07bbec107cda0b896b008b861075358b6f6
         x-checker-data:
           type: anitya
           project-id: 1894
@@ -145,9 +145,9 @@ modules:
       - ln -sr $FLATPAK_DEST/gradle/bin/gradle $FLATPAK_DEST/bin
     sources:
       - type: file
-        url: https://services.gradle.org/distributions/gradle-9.4.1-bin.zip
+        url: https://services.gradle.org/distributions/gradle-9.6.0-bin.zip
         dest-filename: gradle-bin.zip
-        sha512: 7aa7b84d6194c3d343c3c60a2c81d9f2aabf8c7ee0cc6b4330e9e4059a0b58762993feb9a5d95efe004aedfc0cf06c8faced4056bd2b8d47bdea4c34ce6f31f8
+        sha512: 15b0cf3087c9a7ae2adadc6dfc41139de3968e8fdce20730eef11acbe24334e63d5b605e429dc66ecc1a0a665579f04b7b205e678d57203ef43ac51dd73a1677
         x-checker-data:
           type: json
           url: https://api.github.com/repos/gradle/gradle/releases
