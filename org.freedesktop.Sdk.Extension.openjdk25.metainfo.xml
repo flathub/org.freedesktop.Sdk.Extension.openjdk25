@@ -13,8 +13,11 @@
   </description>
   <url type="homepage">https://github.com/flathub/org.freedesktop.Sdk.Extension.openjdk25</url>
   <releases>
-    <release version="jdk-25.0.4.1+1" date="2026-08-21">
+    <release version="jdk-25.0.5+8" date="2026-10-23">
       <description></description>
+    </release>
+    <release version="jdk-25.0.4.1+1" date="2026-08-21">
+      <description/>
     </release>
     <release version="jdk-25.0.4+7" date="2026-07-30">
       <description/>
